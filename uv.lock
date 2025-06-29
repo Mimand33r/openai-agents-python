@@ -1484,6 +1484,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "griffe" },
+    { name = "litellm" },
     { name = "mcp", marker = "python_full_version >= '3.10'" },
     { name = "openai" },
     { name = "pydantic" },
@@ -1533,6 +1534,7 @@ dev = [
 requires-dist = [
     { name = "graphviz", marker = "extra == 'viz'", specifier = ">=0.17" },
     { name = "griffe", specifier = ">=1.5.6,<2" },
+    { name = "litellm", specifier = ">=1.67.4.post1" },
     { name = "litellm", marker = "extra == 'litellm'", specifier = ">=1.67.4.post1,<2" },
     { name = "mcp", marker = "python_full_version >= '3.10'", specifier = ">=1.9.4,<2" },
     { name = "numpy", marker = "python_full_version >= '3.10' and extra == 'voice'", specifier = ">=2.2.0,<3" },
